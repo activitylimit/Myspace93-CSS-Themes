@@ -1,0 +1,204 @@
+/* Activit's CSS, Cute theme */
+/* CREDIT ME! copy paste this: css by activit https://myspace.windows93.net/?id=48506 */
+
+body {
+    text-align: center;
+    font-family: ocr a;
+    padding-top: 45px;
+    font-size: 15px;
+    background-image: url(https://data.whicdn.com/images/130776890/original.gif);
+    -webkit-animation: fadeIn ease 3s;
+}
+
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+* {
+    cursor: url(https://cur.cursors-4u.net/others/oth-8/oth708.cur), auto !important;
+}
+
+div#container {
+    background-color: rgba(250, 252, 255, 0.44);
+    padding-left: 15px;
+    padding-right: 15px;
+    border: double #fff 4px;
+}
+
+.box {
+    overflow: hidden;
+}
+
+.boxInfo {
+    border: double white 4px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.blurbs, table {
+    border: double white 5px;
+    padding: 10px;
+}
+
+.player::after {
+    content: "";
+    display: block;
+    position: relative;
+    width: calc(40% -20px);
+    height: 300px;
+    max-width: 500px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url(https://64.media.tumblr.com/7679d7ca4775aa456791ed006310de52/tumblr_ol1f6m8Fe31vsjcxvo1_640.gifv);
+}
+
+.topLeft:after {
+    content: "";
+    white-space: pre-wrap;
+    display: block;
+    height: 500px;
+    background-image: url(lll), url(https://i.pinimg.com/originals/10/f5/f1/10f5f1f54ed65de278ef0466c3372648.gif);
+    background-repeat: no-repeat, no-repeat, repeat, repeat, repeat, repeat;
+    background-size: 390px;
+}
+
+comments, table, .box, .blurbs {
+    background-color: #eed3ed;
+}
+
+p {
+    color: purple;
+    margin: 4px;
+}
+
+b {
+    color: #a23f95;
+    text-shadow: 1px 1px white;
+}
+
+h4 {
+    background-image: url(https://i.gifer.com/19e7.gif);
+    color: #951cd3;
+    text-shadow: 1px 1px #fff000;
+    padding: 6px;
+}
+
+.rightHead {
+    left: 4px;
+    background-image: linear-gradient(to right, #d97dd6 , #ffff71);
+    color: #a23f95;
+    text-shadow: 1px 1px white;
+    padding: 4px;
+}
+
+.fwiendFace img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #fff;
+    background-position: center;
+}
+
+.box.fwiends {
+    background-image: linear-gradient(
+45deg
+, #dfccdf, #ffeca7);
+    border: double white 5px;
+}
+
+.boxHead {
+    background-image: linear-gradient(to right, #d97dd6 , #ffff71);
+    color: #a23f95;
+    text-shadow: 1px 1px white;
+    padding: 3px;
+    padding-bottom: 4px;
+    padding-left: 6px;
+}
+
+#sMsg {
+    background-repeat: no-repeat;
+    background-image: url(http://i739.photobucket.com/albums/xx31/pixelpeach/purple/th037.gif);
+    text-indent: -50px;
+    color: #6e00ff;
+}
+
+#report {
+    background-repeat: no-repeat;
+    background-image: url(http://i739.photobucket.com/albums/xx31/pixelpeach/purple/th037.gif);
+    text-indent: -90px;
+    color: #6e00ff;
+}
+
+#block {
+    background-repeat: no-repeat;
+    background-image: url(http://i739.photobucket.com/albums/xx31/pixelpeach/purple/th037.gif);
+    text-indent: -90px;
+    color: #6e00ff;
+}
+
+#add {
+    background-repeat: no-repeat;
+    background-image: url(http://i739.photobucket.com/albums/xx31/pixelpeach/purple/th037.gif);
+    text-indent: -50px;
+    color: #6e00ff;
+}
+
+.url {
+    border: solid 2px #ba66cc;
+    padding: 2px;
+    color: purple;
+}
+
+.extended.box {
+    background-image: url(https://64.media.tumblr.com/7679d7c…/tumblr_ol1f6m8Fe31vsjcxvo1_640.gifv);
+    border: double white 7px;
+}
+
+#commentInput {
+    background-image: linear-gradient(to right, #f0d0e7 , #f0f0b0);
+}
+
+.tableRight {
+    background: #f1ecf2;
+}
+
+.tableLeft {
+    background: none;
+}
+
+#hSub a {
+    color: #fff;
+    text-decoration: none;
+}
+#header, #hSub {
+    background: #deb3df url(lll) repeat!important;
+    border-bottom: 1px solid #fff !important;
+    border-radius: 10px;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: double white 5px;
+}
+
+span#credo, #gender, #country, div {
+    color: #c55de8;
+}
+
+.box.blog {
+    border: double white 4px;
+}
+
+.logo b {
+opacity: 1;
+animation: fade 7s linear;
+animation-iteration-count:infinite;
+}
+
+@keyframes fade {
+0%,100% { opacity: 0 }
+50% { opacity: 1 }
+}
+
+
