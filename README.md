@@ -3,3 +3,4 @@ Please always credit me! You can do that by adding me to your "about me" or to y
 
 ## The css
 1. CUTE THEME (inspired by todomatsu from osomatsu-san)
+![page_css](https://user-images.githubusercontent.com/78664824/107150533-85f1f100-695e-11eb-91f8-45918c37e9ec.PNG)
