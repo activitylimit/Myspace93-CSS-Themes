@@ -1,0 +1,283 @@
+/* activit's blue and orange theme ALWAYS CREDIT */
+
+body {
+    font-family: ocr a;
+    padding-top: 45px;
+    font-size: 15px;
+    background-image: url(https://64.media.tumblr.com/75364be3824c44d04dfd7effd9fcca31/tumblr_o8bmp327ud1uh17apo1_1280.png);
+    text-align: center;
+    -webkit-animation: fadeIn ease 3s;
+}
+
+    @keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+}
+
+* {
+    cursor: url(https://cur.cursors-4u.net/sports/spo-3/spo276.cur), auto !important;
+}
+
+
+#container {
+    max-width: 1024px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #b2b5e1;
+    box-shadow: 0 0 100px white;
+    margin-top: 20px;
+    border-radius: 50px;
+}
+
+.short {
+    border-radius: 25px;
+    background-color: #9393c7;
+    border: 5px outset #ffca9c;
+    animation: bounce linear 10s;
+    animation-iteration-count: infinite;
+    transform-origin: 50% 50%;
+}
+
+img#avatar.avatar {
+    border: 2px solid transparent;
+    border-image: url(https://thumbs.gfycat.com/SingleAgitatedBug-small.gif);
+    border-radius: 10px;
+}
+
+.boxHead {
+    background-image: url(https://thumbs.gfycat.com/SingleAgitatedBug-small.gif);
+    color: #4b4e6c;
+    text-shadow: 2px 2px #cabfff;
+    border-radius: 15px 50px;
+    box-shadow: 0 0 5px white;
+}
+
+.rightHead {
+    background-image: url(https://thumbs.gfycat.com/SingleAgitatedBug-small.gif);
+    color: #4b4e6c;
+    text-shadow: 2px 2px #cabfff;
+    border-radius: 15px 50px;
+    box-shadow: 0 0 5px white;
+}
+
+.boxInfo {
+    border-radius: 10px;
+    background-color: #9393c7;
+    border: none;
+    box-shadow: 0 0 5px #ffffff;
+}
+
+.url {
+    border: none;
+    color: #4b4e6c;
+    background-color: #9393c7;
+    border-radius: 20px;
+    box-shadow: 0 0 5px white;
+    padding: 2px;
+}
+
+.player.box {
+    background-color: #9393c7;
+}
+
+.player::after {
+    content: "";
+    display: block;
+    position: relative;
+    height: 300px;
+    max-width: 400px;
+    background-position: 0 0;
+    background-size: 100% 100%;
+    background-image: url(https://pbs.twimg.com/media/ENMK3EsUcAEsboR.jpg);
+}
+
+.player audio, .player audio::-webkit-media-controls, .player audio::-webkit-media-controls-enclosure, .player audio::-webkit-media-controls-panel {
+    background: var(--color--bg-box);
+    filter: none;
+}
+
+h4 {
+    color: #242066;
+    text-shadow: 1px 1px #a8a3e3;
+    margin-bottom: 5px;
+    background-image: linear-gradient(45deg, #9393c7, #5d4abc, #9393c7);
+}
+
+h3 {
+    color: #c87437;
+    text-shadow: 2px 2px #ffa937;
+}
+
+.box.blurbs {
+    border-radius: 10px;
+    background-color: #9393c7;
+}
+
+td.shortRight {
+    color: #8b491b;
+    text-shadow: 1px 1px #f39a6c;
+}
+
+p {
+    padding: 5px;
+}
+
+.extended.box {
+    background-image: url(https://thumbs.gfycat.com/DampEvilGermanspaniel-small.gif);
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0 0 5px white;
+}
+
+span#hUp::before {
+    content: "welcome";
+    color: #7077ca;
+    font-size: 16px;
+    font-family: ocr a;
+    animation-name: rainbow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes rainbow {
+  0%   {color: red;}
+  25%  {color: yellow;}
+  50%  {color: blue;}
+  100% {color: red;}
+}
+
+.logo b:after {
+    vertical-align: middle;
+    font-size: 20px;
+    color: #575d9f;
+    content: "bluespace.com <3";
+    font-family: "ocr a";
+}
+
+.fwiendFace img {
+    object-fit: cover;
+    height: 100px;
+    width: 100px;
+    border-radius: 50px;
+    border: dotted;
+}
+
+.logo b span {
+    display: none;
+}
+
+div#header {
+    background: rgb(108 112 219 / 80%);
+    border-bottom: none;
+    width: 1000px;
+    left: 250px;
+    border-radius: 20px;
+    position: absolute;
+}
+
+#hSub a {
+    color: #ffffff;
+    text-shadow: 0px 0px 3px #ffffff;
+}
+
+#hSub a:hover {
+    text-shadow: 1px 1px #2b00ff;
+}
+
+div#hSub {
+    background-image: url(https://thumbs.gfycat.com/SingleAgitatedBug-small.gif);
+    width: 500px;
+    top: 34px;
+    left: 500px;
+    height: 10px;
+    font-size: small;
+    border-radius: 10px;
+    margin-top: 10px;
+    position: absolute;
+}
+
+table#userWall {
+    overflow: auto;
+    width: 100%;
+    height: 400px;
+}
+
+td.tableRight, .tableLeft {
+    background: #9393c7;
+    border-radius: 20px;
+    box-shadow: 0 0 5px white;
+    color: #0f0f57;
+}
+
+.tableLeft img {
+    width: 70%;
+    border-radius: 10px;
+    height: 90px;
+    object-fit: cover;
+    box-shadow: 0 0 3px white;
+}
+
+textarea#commentInput {
+    background: #cccceb;
+    border: none;
+}
+
+#add::after {
+    color: #0f0f57;
+    font-size: 13px;
+    content: "friends?♡";
+}
+
+#sMsg::after {
+    color: #0f0f57;
+    font-size: 13px;
+    content: "hmu!♡";
+}
+
+#block::after {
+    color: #0f0f57;
+    font-size: 13px;
+    content: "(눈_눈)";
+}
+
+#report::after {
+    color: #0f0f57;
+    font-size: 13px;
+    content: "snitch凸(￣ヘ￣)";
+}
+
+#add {
+    background-repeat: no-repeat;
+    background: url(http://img.photobucket.com/albums/v252/shaquanda/dumpitydump/pixelwixel/mini149.gif) no-repeat;
+    background-position: left;
+    background-size: 30px;
+    font-size: 0;
+}
+
+#sMsg {
+    background-repeat: no-repeat;
+    background: url(http://img.photobucket.com/albums/v252/shaquanda/dumpitydump/pixelwixel/mini149.gif) no-repeat;
+    background-size: 30px;
+    font-size: 0;
+}
+
+#report {
+    background-repeat: no-repeat;
+    background: url(http://img.photobucket.com/albums/v252/shaquanda/dumpitydump/pixelwixel/mini149.gif) no-repeat;
+    background-position: left;
+    background-size: 30px;
+    font-size: 0;
+}
+
+#block {
+    background-repeat: no-repeat;
+    background: url(http://img.photobucket.com/albums/v252/shaquanda/dumpitydump/pixelwixel/mini149.gif) no-repeat;
+    background-position: left;
+    background-size: 30px;
+    font-size: 0;
+}
+
+h2#name {
+    color: #1a2466;
+    text-shadow: 1px 1px white;
+}
